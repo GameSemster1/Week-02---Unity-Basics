@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Scaler : MonoBehaviour
 {
-	public Vector3 maxScale = new Vector3(1.5f, 1.5f, 1.5f);
-	public Vector3 minScale = new Vector3(0.5f, 0.5f, 0.5f);
-	public Vector3 scaleSpeed = new Vector3(1, 1, 1);
+	public Vector3 maxScale = Vector3.one * 1.5f;
+	public Vector3 minScale = Vector3.one * 0.5f;
+	public Vector3 scaleSpeed = Vector3.one;
 
 	private bool scaleUp = true;
 
