@@ -6,7 +6,7 @@ using UnityEngine;
 public class Oscillator : MonoBehaviour
 {
 	public float limit = 1;
-	public float topSpeed = 1;
+	public float speedScale = 1;
 
 	private float startX;
 	private float currentAcceleration;
@@ -31,6 +31,6 @@ public class Oscillator : MonoBehaviour
 
 		dircetion += currentAcceleration * Time.deltaTime;
 
-		transform.position += new Vector3(dircetion * topSpeed * limit * Time.deltaTime, 0, 0);
+		transform.position += new Vector3(dircetion * speedScale * limit * Time.deltaTime, 0, 0);
 	}
 }
