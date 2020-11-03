@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// TODO: add documentation
+/// <summary>
+/// Makes a gameobject move in the following way:
+/// Accelerate until the halfway point, then decelerate until it comes to a complete stop,
+/// then accelerate the other direction in the same way.
+/// </summary>
 public class Oscillator : MonoBehaviour
 {
 	/// <summary>

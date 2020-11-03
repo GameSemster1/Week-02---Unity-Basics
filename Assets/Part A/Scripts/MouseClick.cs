@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Makes an render appear and disappear when the mouse is clicked.
+/// </summary>
 public class MouseClick : MonoBehaviour
 {
 	/// <summary>

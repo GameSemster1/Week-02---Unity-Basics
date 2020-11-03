@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Rotates a gameobject around itself at a fixed speed.
+/// </summary>
 public class Rotator : MonoBehaviour
 {
 	/// <summary>

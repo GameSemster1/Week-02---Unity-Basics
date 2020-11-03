@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Changes the scale of a gameobject up until a top bound and then down until a bottom bound like a heartbeat.
+/// </summary>
 public class Scaler : MonoBehaviour
 {
 	/// <summary>
@@ -20,7 +23,7 @@ public class Scaler : MonoBehaviour
 	/// The scaling speed.
 	/// </summary>
 	[Tooltip("The scaling speed.")] public Vector3 scaleSpeed = Vector3.one;
-	
+
 	/// <summary>
 	/// The current scaling direction.
 	/// </summary>
